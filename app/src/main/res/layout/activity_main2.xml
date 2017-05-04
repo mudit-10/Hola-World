@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deeksha.mycheck.Main2">
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+
+            android:layout_marginTop="60dp"
+            android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Which language do you want to learn?"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#8C001A"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        >
+        <ImageView
+            android:id="@+id/franceimg"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@mipmap/frencher"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="French"
+            android:textAlignment="center"
+            android:textSize="28dp"
+            android:textColor="#000080"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        >
+        <ImageView
+            android:id="@+id/germanimg"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@mipmap/germaner"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="German"
+
+            android:textSize="28dp"
+            android:textColor="#000080"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    >
+                    <ImageView
+                        android:id="@+id/italyimg"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@mipmap/italianer"
+                       />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Italian"
+                        android:textAlignment="center"
+
+                        android:textSize="28dp"
+                        android:textColor="#000080"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    >
+                    <ImageView
+                        android:id="@+id/spainimg"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@mipmap/spanisher"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Spanish"
+                        android:textAlignment="center"
+
+                        android:textSize="28dp"
+                        android:textColor="#000080"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
